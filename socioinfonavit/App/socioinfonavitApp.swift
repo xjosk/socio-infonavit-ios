@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct socioinfonavitApp: App {
+    
+    @StateObject var viewModel = AuthViewModel(authRepository: MockAuthRepository())
+    
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D4D0FFE02F48FBCA0009AA52 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4D0FFDF2F48FBCA0009AA52 /* CachedAsyncImage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D47D02802F4661BF006D74C6 /* socioinfonavit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socioinfonavit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D0FFE02F48FBCA0009AA52 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = socioinfonavit;
 			packageProductDependencies = (
+				D4D0FFDF2F48FBCA0009AA52 /* CachedAsyncImage */,
 			);
 			productName = socioinfonavit;
 			productReference = D47D02802F4661BF006D74C6 /* socioinfonavit.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = D47D02772F4661BF006D74C6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D4D0FFDE2F48FBCA0009AA52 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D47D02812F4661BF006D74C6 /* Products */;
 			projectDirPath = "";
@@ -256,6 +265,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,6 +297,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,6 +339,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4D0FFDE2F48FBCA0009AA52 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4D0FFDF2F48FBCA0009AA52 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D0FFDE2F48FBCA0009AA52 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D47D02782F4661BF006D74C6 /* Project object */;
 }
