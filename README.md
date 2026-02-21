@@ -1,3 +1,1 @@
-## Vídeo funcionalidad
-
-![](app.mov)
+## Prueba iOS Nextia - Benevits
